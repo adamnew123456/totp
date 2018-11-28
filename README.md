@@ -23,7 +23,7 @@ This used for most 2FA keys found in the wild today. If your key
 didn't come with an explicit counter, then it is probably using
 TOTP.
 
-  totp -t -s SECRET [-a ALGORITHM] [-d DIGITS] [-p PERIOD]
+    totp -t -s SECRET [-a ALGORITHM] [-d DIGITS] [-p PERIOD]
   
 The `-t` argument is required (it signals the use of TOTP), as is the
 `-s` argument which contains the secret. The other options are as
@@ -36,7 +36,7 @@ follows:
 
 ## HOTP
 
-  totp -h -c COUNTER -s SECRET [-a ALGORITHM] [-d DIGITS]
+    totp -h -c COUNTER -s SECRET [-a ALGORITHM] [-d DIGITS]
   
 Most arguments are the same as with TOTP, with the exception of `-h`
 (it signals the use of HOTP), and the required `-c` argument which
