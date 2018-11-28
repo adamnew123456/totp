@@ -15,7 +15,7 @@ is .NET 4.
 
 # Running
 
-You can run the program in one either TOTP mode or HOTP mode:
+You can run the program in either TOTP mode or HOTP mode.
 
 ## TOTP
 
