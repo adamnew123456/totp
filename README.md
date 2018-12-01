@@ -9,9 +9,9 @@ configuration.
 
 # Building
 
-Run msbuild on the solution. The project file is in the new .NET Core
-format, so .NET Core is probably required, although the default target
-is .NET 4.
+You can build using either the core or framework prjoect file, depending
+upon whether you have .NET Core installed or not. In either case, the
+default target is a .NET 4 executable.
 
 # Running
 

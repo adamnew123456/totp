@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "totp", "totp.csproj", "{59AC4148-C440-420E-9A67-CD5CAB03E26A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "totp.Core", "totp.core.csproj", "{59AC4148-C440-420E-9A67-CD5CAB03E26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "totp.Framework", "totp.framework.csproj", "{7E57B072-38BE-4A49-A599-9DD59896AE2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
